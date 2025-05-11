@@ -1,7 +1,6 @@
+import clsx from 'clsx';
 import type { CSSProperties, FC } from 'react';
 import { IconComponent } from '../IconComponent';
-import { getWeatherIcon, getWeatherTemperature } from '~/utils/weather';
-import clsx from 'clsx';
 
 export type WeatherCardItem = {
   day: string;
